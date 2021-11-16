@@ -8,7 +8,7 @@ namespace TestProject.Tests
         [TestMethod]
         public void TestMethod1()
         {
-            Assert.Equals(2 + 2, 4);
+            Assert.AreEqual(2 + 2, 4);
         }
     }
 }
